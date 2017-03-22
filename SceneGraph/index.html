@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>TH Köln | CG-Learning | Scene-Graph</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700,500|Roboto+Condensed:400,300,700' rel='stylesheet' type='text/css'>
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/app.css" rel="stylesheet" />
+    
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script src="js/polyfills/requestAnimationFrame.js"></script>
+    <script src="js/polyfills/addWheelListener.js"></script>
+    <script src="js/polyfills/Blob.js"></script>
+    <script src="js/polyfills/FileSaver.js"></script>
+    <script src="js/three-r73.min.js"></script>
+    <script src="js/app.js"></script>
+
+    <script>
+        var app;
+        var nodeCollectionsData;
+        
+        /**Wird ausgeführt wenn das DOM vollständig geladen worden ist*/
+        $(document).ready(function ()
+        {
+            $.ajax(
+            {
+                url: "nodeCollections.xml",
+                contentType: "application/xml; charset=UTF-8"
+            }
+            ).done(OnLoadNodeCollections);
+        });
+
+        function OnLoadNodeCollections(nodeCollectionsXML)
+        {
+            var sceneGraphMode = $('#toolbar input[name=mode]:checked').val();
+            
+            app = new App(
+                $('#view3D').get(0),
+                $('#sceneGraph').get(0),
+                $('#chooseCollection').get(0),
+                $('#nodeSettings').get(0),
+                $('#matricesOutput').get(0),
+                nodeCollectionsXML,
+                sceneGraphMode
+            );
+        }
+    </script>
+</head>
+
+<body>
+    <div id="mainContainer">
+
+        <div id="header">
+            <img src="images/logo_THKoeln.png" style="float:right" />
+            <h1 style="font-size:24px; font-weight:400; margin-bottom:0">CG - Learning</h1>
+            <h2 style="color:#666; font-size:38px; font-weight:400; margin-bottom:0">Scene-Graph</h2>
+        </div>
+
+
+        <div id="app">
+            <div id="toolbar">
+                <input id="buttonMoveNode" onchange="app.SetSceneGraphMode(this.value);" title="MODE: Move Node" type="radio" name="mode" value="moveNode" checked />
+                <label for="buttonMoveNode" title="MODE: move node"></label>
+                <input id="buttonCreateConnection" onchange="app.SetSceneGraphMode(this.value);" title="MODE: Create Connection" type="radio" name="mode" value="createConnection" />
+                <label for="buttonCreateConnection" title="MODE: create connection"></label>
+                <input id="buttonAddNode" onclick="app.SwitchNodeCollectionVisibility()" title="add node" type="button" />
+                <input id="buttonDel" onclick="app.DeleteSelectedElement();" title="delete selected element" type="button" />
+                <input id="buttonReset" onclick="app.Reset();" title="reset graph" type="button" />
+                <input id="buttonSaveGraph" onclick="app.SaveGraph();" title="save graph" type="button" />
+                <div id="buttonLoadGraph"><input id="inputLoadGraph" onclick="this.value = null;" onchange="app.LoadGraph(this.files);" title="load graph" type="file" accept="text/XML" /></div>
+            </div>
+
+            <div id="sceneGraph">
+            </div>
+
+            <div id="view3D">
+            </div>
+
+            <div id="chooseCollection">
+            </div>
+        </div>
+
+        <div id="legend">
+            <img src="images/activePath.png" />
+            <span class="caption">active Path&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <img src="images/incompletePath.png" />
+            <span class="caption">incomplete Path</span>
+        </div>
+
+        <div id="content">
+            <div id="nodeSettings">
+
+            </div>
+
+            <div id="matricesOutput">
+
+            </div>
+
+            <!--<h1>TypeScript <br />HTML App (h1)</h1>
+            <h2>Prävention von<br />Terrorismus (h2)</h2>
+            <h3>TypeScript <br />HTML App (h3)</h3>
+
+            <p class="condensed">The time is... Das ist eine normaler Text, aber Condensed.</p>
+            <p>The time is... Das ist ein Normaler Text.</p>
+
+            <div style="width:300px">
+                <h2>Neue MultiCa für Studierende</h2>
+                <p><em>Aktuelles</em></p>
+                <p><strong>Im Laufe des Januars</strong> wird die neue MultiCa an alle bereits eingeschriebenen Studierenden der TH Köln verschickt. Das Guthaben auf der alten MultiCa kann bis zum 29.02.2016 aufgebraucht werden, die alte Karte bitte nicht mehr validieren.</p>
+                <p>Im Laufe des Januars wird die neue MultiCa an alle bereits eingeschriebenen Studierenden der TH Köln verschickt. Das Guthaben auf der alten MultiCa kann bis zum 29.02.2016 aufgebraucht werden, die alte Karte bitte nicht mehr validieren.</p>
+            </div>-->
+        </div>
+
+        <div id="footer">
+            Author: Jarek Sarbiewski
+        </div>
+
+    </div>
+</body>
+</html>

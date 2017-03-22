@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<graph collectionName="deskLamp" offsetX="0" offsetY="0">
+    <nodes>
+        <node id="node11" type="root" name="world" posX="384" posY="340">
+            <matrixX>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixX>
+            <matrixY>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixY>
+            <matrixZ>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixZ>
+            <matrix>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrix>
+        </node>
+        <node id="node12" type="geometry" name="foot" posX="40.5" posY="466">
+            <matrixX>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixX>
+            <matrixY>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixY>
+            <matrixZ>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixZ>
+            <matrix>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrix>
+        </node>
+        <node id="node13" type="transformation" name="tr" posX="267" posY="464.5">
+            <matrixX>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixX>
+            <matrixY>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixY>
+            <matrixZ>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixZ>
+            <matrix>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrix>
+        </node>
+        <node id="node14" type="transformation" name="tt" posX="324" posY="465.5">
+            <matrixX>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixX>
+            <matrixY>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixY>
+            <matrixZ>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixZ>
+            <matrix>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrix>
+        </node>
+        <node id="node15" type="transformation" name="ts" posX="384" posY="463.5">
+            <matrixX>1.100000023841858, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixX>
+            <matrixY>1, 0, 0, 0, 0, 1.100000023841858, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixY>
+            <matrixZ>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.100000023841858, 0, 0, 0, 0, 1</matrixZ>
+            <matrix>1.100000023841858, 0, 0, 0, 0, 1.100000023841858, 0, 0, 0, 0, 1.100000023841858, 0, 0, 0, 0, 1</matrix>
+        </node>
+        <node id="node16" type="geometry" name="footHinge" posX="39.5" posY="407">
+            <matrixX>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixX>
+            <matrixY>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixY>
+            <matrixZ>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixZ>
+            <matrix>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrix>
+        </node>
+        <node id="node17" type="transformation" name="tr" posX="205" posY="403.5">
+            <matrixX>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixX>
+            <matrixY>6.123234262925839e-17, 0, 1, 0, 0, 1, 0, 0, -1, 0, 6.123234262925839e-17, 0, 0, 0, 0, 1</matrixY>
+            <matrixZ>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixZ>
+            <matrix>6.123234262925839e-17, 0, 1, 0, 0, 1, 0, 0, -1, 0, 6.123234262925839e-17, 0, 0, 0, 0, 1</matrix>
+        </node>
+        <node id="node18" type="transformation" name="tt" posX="266" posY="401.5">
+            <matrixX>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixX>
+            <matrixY>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 3.5999999046325684, 0, 1</matrixY>
+            <matrixZ>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixZ>
+            <matrix>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 3.5999999046325684, 0, 1</matrix>
+        </node>
+        <node id="node19" type="geometry" name="lowerArm" posX="39.5" posY="348">
+            <matrixX>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixX>
+            <matrixY>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixY>
+            <matrixZ>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixZ>
+            <matrix>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrix>
+        </node>
+        <node id="node20" type="transformation" name="tr" posX="155" posY="345.5">
+            <matrixX>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixX>
+            <matrixY>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixY>
+            <matrixZ>0.7071067690849304, 0.7071067690849304, 0, 0, -0.7071067690849304, 0.7071067690849304, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixZ>
+            <matrix>0.7071067690849304, 0.7071067690849304, 0, 0, -0.7071067690849304, 0.7071067690849304, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrix>
+        </node>
+        <node id="node21" type="transformation" name="tt" posX="205" posY="344.5">
+            <matrixX>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixX>
+            <matrixY>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 6.599999904632568, 0, 1</matrixY>
+            <matrixZ>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixZ>
+            <matrix>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 6.599999904632568, 0, 1</matrix>
+        </node>
+        <node id="node22" type="geometry" name="upperArm" posX="39.5" posY="286">
+            <matrixX>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixX>
+            <matrixY>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixY>
+            <matrixZ>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixZ>
+            <matrix>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrix>
+        </node>
+        <node id="node23" type="transformation" name="tr" posX="96" posY="284.5">
+            <matrixX>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixX>
+            <matrixY>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixY>
+            <matrixZ>6.123234262925839e-17, -1, 0, 0, 1, 6.123234262925839e-17, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixZ>
+            <matrix>6.123234262925839e-17, -1, 0, 0, 1, 6.123234262925839e-17, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrix>
+        </node>
+        <node id="node24" type="transformation" name="tt" posX="155" posY="284.5">
+            <matrixX>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixX>
+            <matrixY>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 22.399999618530273, 0, 1</matrixY>
+            <matrixZ>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixZ>
+            <matrix>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 22.399999618530273, 0, 1</matrix>
+        </node>
+        <node id="node25" type="geometry" name="upperArmRod" posX="38.5" posY="224">
+            <matrixX>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixX>
+            <matrixY>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixY>
+            <matrixZ>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixZ>
+            <matrix>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrix>
+        </node>
+        <node id="node26" type="transformation" name="tt" posX="95" posY="225.5">
+            <matrixX>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixX>
+            <matrixY>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 9.800000190734863, 0, 1</matrixY>
+            <matrixZ>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixZ>
+            <matrix>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 9.800000190734863, 0, 1</matrix>
+        </node>
+        <node id="node27" type="geometry" name="lampShadeHolder" posX="384.5" posY="162">
+            <matrixX>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixX>
+            <matrixY>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixY>
+            <matrixZ>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixZ>
+            <matrix>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrix>
+        </node>
+        <node id="node28" type="transformation" name="tr" posX="203" posY="163.5">
+            <matrixX>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixX>
+            <matrixY>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixY>
+            <matrixZ>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixZ>
+            <matrix>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrix>
+        </node>
+        <node id="node29" type="transformation" name="tt" posX="151" posY="165.5">
+            <matrixX>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixX>
+            <matrixY>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 11.800000190734863, 0, 1</matrixY>
+            <matrixZ>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixZ>
+            <matrix>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 11.800000190734863, 0, 1</matrix>
+        </node>
+        <node id="node30" type="transformation" name="ts" posX="93" posY="164.5">
+            <matrixX>0.949999988079071, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixX>
+            <matrixY>1, 0, 0, 0, 0, 0.949999988079071, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixY>
+            <matrixZ>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0.949999988079071, 0, 0, 0, 0, 1</matrixZ>
+            <matrix>0.949999988079071, 0, 0, 0, 0, 0.949999988079071, 0, 0, 0, 0, 0.949999988079071, 0, 0, 0, 0, 1</matrix>
+        </node>
+        <node id="node31" type="geometry" name="lampShade" posX="383.5" posY="100">
+            <matrixX>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixX>
+            <matrixY>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixY>
+            <matrixZ>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixZ>
+            <matrix>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrix>
+        </node>
+        <node id="node32" type="geometry" name="lightBulb" posX="382.5" posY="40">
+            <matrixX>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixX>
+            <matrixY>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixY>
+            <matrixZ>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixZ>
+            <matrix>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrix>
+        </node>
+        <node id="node33" type="transformation" name="tr" posX="258" posY="101.5">
+            <matrixX>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixX>
+            <matrixY>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixY>
+            <matrixZ>0.15643446147441864, -0.9876883625984192, 0, 0, 0.9876883625984192, 0.15643446147441864, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixZ>
+            <matrix>0.15643446147441864, -0.9876883625984192, 0, 0, 0.9876883625984192, 0.15643446147441864, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrix>
+        </node>
+        <node id="node34" type="transformation" name="tt" posX="203" posY="103.5">
+            <matrixX>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixX>
+            <matrixY>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 5.800000190734863, 0, 1</matrixY>
+            <matrixZ>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixZ>
+            <matrix>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 5.800000190734863, 0, 1</matrix>
+        </node>
+        <node id="node35" type="transformation" name="tt" posX="312" posY="41.5">
+            <matrixX>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixX>
+            <matrixY>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 3.799999952316284, 0, 1</matrixY>
+            <matrixZ>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixZ>
+            <matrix>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 3.799999952316284, 0, 1</matrix>
+        </node>
+        <node id="node36" type="transformation" name="ts" posX="257" posY="41.5">
+            <matrixX>1.100000023841858, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixX>
+            <matrixY>1, 0, 0, 0, 0, 1.100000023841858, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1</matrixY>
+            <matrixZ>1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.100000023841858, 0, 0, 0, 0, 1</matrixZ>
+            <matrix>1.100000023841858, 0, 0, 0, 0, 1.100000023841858, 0, 0, 0, 0, 1.100000023841858, 0, 0, 0, 0, 1</matrix>
+        </node>
+    </nodes>
+
+    <connections>
+        <connection id="connection0" aNodeID="node12" bNodeID="node13"></connection>
+        <connection id="connection1" aNodeID="node13" bNodeID="node14"></connection>
+        <connection id="connection2" aNodeID="node14" bNodeID="node15"></connection>
+        <connection id="connection3" aNodeID="node15" bNodeID="node11"></connection>
+        <connection id="connection4" aNodeID="node16" bNodeID="node17"></connection>
+        <connection id="connection5" aNodeID="node17" bNodeID="node18"></connection>
+        <connection id="connection6" aNodeID="node18" bNodeID="node13"></connection>
+        <connection id="connection7" aNodeID="node19" bNodeID="node20"></connection>
+        <connection id="connection8" aNodeID="node20" bNodeID="node21"></connection>
+        <connection id="connection9" aNodeID="node21" bNodeID="node17"></connection>
+        <connection id="connection10" aNodeID="node22" bNodeID="node23"></connection>
+        <connection id="connection11" aNodeID="node23" bNodeID="node24"></connection>
+        <connection id="connection12" aNodeID="node24" bNodeID="node20"></connection>
+        <connection id="connection13" aNodeID="node26" bNodeID="node23"></connection>
+        <connection id="connection14" aNodeID="node27" bNodeID="node28"></connection>
+        <connection id="connection15" aNodeID="node28" bNodeID="node29"></connection>
+        <connection id="connection16" aNodeID="node29" bNodeID="node30"></connection>
+        <connection id="connection17" aNodeID="node30" bNodeID="node26"></connection>
+        <connection id="connection18" aNodeID="node32" bNodeID="node35"></connection>
+        <connection id="connection19" aNodeID="node35" bNodeID="node36"></connection>
+        <connection id="connection20" aNodeID="node31" bNodeID="node33"></connection>
+        <connection id="connection21" aNodeID="node33" bNodeID="node34"></connection>
+        <connection id="connection22" aNodeID="node34" bNodeID="node28"></connection>
+        <connection id="connection23" aNodeID="node36" bNodeID="node33"></connection>
+        <connection id="connection24" aNodeID="node25" bNodeID="node26"></connection>
+    </connections>
+</graph>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<nodeCollections>
+
+  <!--Schreibtischlampe-->
+  <nodeCollection name="deskLamp" title="desk lamp" selected="selected">
+    <metaData>
+      <nodeImagesPath>images/nodesDeskLamp/</nodeImagesPath>
+      <jsonModelsPath>models/modelsDeskLamp/</jsonModelsPath>
+      <rootNodeImageFileName>nodeWorld.png</rootNodeImageFileName>
+      <trNodeImageFileName>nodeTR.png</trNodeImageFileName>
+      <ttNodeImageFileName>nodeTT.png</ttNodeImageFileName>
+      <tsNodeImageFileName>nodeTS.png</tsNodeImageFileName>
+      <geometryNodeSize>56,56</geometryNodeSize>
+      <transformNodeSize>43,43</transformNodeSize>
+    </metaData>
+
+    <geometryNode name="foot"            title="foot"             nodeImageFileName="nodeFoot.png"            jsonModelFileName="foot.json" />
+    <geometryNode name="footHinge"       title="foot hinge"       nodeImageFileName="nodeFootHinge.png"       jsonModelFileName="footHinge.json" />
+    <geometryNode name="lowerArm"        title="lower arm"        nodeImageFileName="nodeLowerArm.png"        jsonModelFileName="lowerArm.json" />
+    <geometryNode name="upperArm"        title="upper arm"        nodeImageFileName="nodeUpperArm.png"        jsonModelFileName="upperArm.json" />
+    <geometryNode name="upperArmRod"     title="upper arm rod"    nodeImageFileName="nodeUpperArmRod.png"     jsonModelFileName="upperArmRod.json" />
+    <geometryNode name="lampShadeHolder" title="lampshade holder" nodeImageFileName="nodeLampShadeHolder.png" jsonModelFileName="lampShadeHolder.json" />
+    <geometryNode name="lampShade"       title="lampshade"        nodeImageFileName="nodeLampShade.png"       jsonModelFileName="lampShade.json" />
+    <geometryNode name="lightBulb"       title="light bulb"       nodeImageFileName="nodeLightBulb.png"       jsonModelFileName="lightBulb.json" />
+  </nodeCollection>
+  
+  <!--Roboter-Hand-->
+  <nodeCollection name="robotHand" title="robot hand">
+    <metaData>
+      <nodeImagesPath>images/nodesRobotHand/</nodeImagesPath>
+      <jsonModelsPath>models/modelsRobotHand/</jsonModelsPath>
+      <rootNodeImageFileName>nodeWorld.png</rootNodeImageFileName>
+      <trNodeImageFileName>nodeTR.png</trNodeImageFileName>
+      <ttNodeImageFileName>nodeTT.png</ttNodeImageFileName>
+      <tsNodeImageFileName>nodeTS.png</tsNodeImageFileName>
+      <geometryNodeSize>56,56</geometryNodeSize>
+      <transformNodeSize>43,43</transformNodeSize>
+    </metaData>
+
+    <geometryNode name="handGround"   title="hand ground"   nodeImageFileName="nodeHandGround.png"   jsonModelFileName="handGround.json" />
+    <geometryNode name="fingerBottom" title="finger bottom" nodeImageFileName="nodeFingerBottom.png" jsonModelFileName="fingerBottom.json" />
+    <geometryNode name="fingerMiddle" title="finger middle" nodeImageFileName="nodeFingerMiddle.png" jsonModelFileName="fingerMiddle.json" />
+    <geometryNode name="fingerTip"    title="finger tip"    nodeImageFileName="nodeFingerTip.png"    jsonModelFileName="fingerTip.json" />
+    <geometryNode name="thumbBale"    title="thumb bale"    nodeImageFileName="nodeThumbBale.png"    jsonModelFileName="thumbBale.json" />
+    <geometryNode name="thumbBottom"  title="thumb bottom"  nodeImageFileName="nodeThumbBottom.png"  jsonModelFileName="thumbBottom.json" />
+    <geometryNode name="thumbMiddle"  title="thumb middle"  nodeImageFileName="nodeThumbMiddle.png"  jsonModelFileName="thumbMiddle.json" />
+    <geometryNode name="thumbTip"     title="thumb tip"     nodeImageFileName="nodeThumbTip.png"     jsonModelFileName="thumbTip.json" />
+  </nodeCollection>
+
+</nodeCollections>
